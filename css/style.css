@@ -1,0 +1,102 @@
+/* navegação */
+
+header{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 30px 0px;
+}
+
+.nav__button{
+    background: #00c8b3;
+    border: none;
+    border-radius: 9px;
+    width: 200px;
+    height: 40px;
+}
+
+.nav__button:hover{
+    opacity: 70%;
+}
+
+.nav__button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* main */
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.inputs{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid rgb(105, 105, 105);
+    height: 40px;
+    font-size: 20px;
+}
+
+.botao{
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: #00c8b3;
+    color: #ffff;
+    margin-top: 20px;
+}
+
+#botao:hover{
+    opacity: 70%;
+}
+
+label{
+    font-size: 20px;
+    color: grey;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+/* classes de erros */
+
+.vazio{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid rgb(255, 71, 71);
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+span{
+    margin-bottom: 20px;
+    color: rgb(255, 68, 68);
+}
+
+.inativo{
+    background: grey;
+}
+
+@media only screen and (max-width: 419px) {
+    header{
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .nav__button{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+  }

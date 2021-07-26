@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Front-end Easynvest</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <button class="nav__button"><a href="index.html">Cadastro</a></button>
+            <button class="nav__button"><a href="exibicao.html">Exibição</a></button>
+        </nav>
+    </header>
+
+    <main>
+        <form action="" class="formulario">
+            <label for="nomeCompleto">Nome completo (sem abreviações)</label>
+            <input type="text" name="" id="nomeCompleto" class="inputs" data-form-nome placeholder="Ex: Dodozinho lindinho deles">
+            <span class="mensagemDeErro1"></span>
+            <label for="cpf">Cpf</label>
+            <input type="text" name="" id="cpf" class="inputs" data-form-cpf placeholder='Ex: 11111111111'>
+            <span class="mensagemDeErro2"></span>
+            <label for="telefone">Telefone (com DDD)</label>
+            <input type="text" name="" id="telefone" class="inputs" data-form-telefone>
+            <span class="mensagemDeErro3"></span>
+            <label for="email">Email</label>
+            <input type="email" name="" id="email" class="inputs" data-form-email placeholder="exemplo@hotmail.com">
+            <input type="submit"  id="botao" value="Enviar" class="botao" data-form-botao>
+        </form>
+    </main>
+
+    <script src="script/main.js" type="module"></script>
+    <script src="script/formularioAtivo.js" type="module"></script>
+    <script src="exibicao.html"></script>
+</body>
+</html>
