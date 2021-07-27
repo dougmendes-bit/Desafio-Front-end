@@ -1,0 +1,40 @@
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 250px;
+    top: 150px;
+    width: 60%;
+    background: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 10px;
+    opacity: 90%;
+    padding-left: 30px;
+}
+
+.modal__input-nome, .modal__input-cpf, .modal__input-telefone, .modal__input-email{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid rgb(105, 105, 105);
+    width: 80%;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;   
+}
+
+.modal__botao{
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: #00c8b3;
+    color: #ffff;
+    width: 80%;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.modal__span{
+    font-size: 20px;
+    color: grey;   
+}
