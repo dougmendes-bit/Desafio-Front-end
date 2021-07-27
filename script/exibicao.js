@@ -36,8 +36,6 @@ document.querySelector('.containerExibicao').addEventListener('dblclick', functi
     if(evento.target.parentElement == document.querySelector('body')) return
     if(evento.target.parentElement == document.querySelector('main')) return
 
-    console.log(evento.target.parentElement.firstChild.textContent)
-
     //--
 
     for(let i = 0; i < pessoas.length; i++){
