@@ -23,3 +23,7 @@ Um desafio para vaga, pego aqui no github (https://github.com/felipefialho/front
 ![image](https://user-images.githubusercontent.com/80355232/127039832-b3537af4-39cf-4629-956c-f4d803df505a.png)
 ![image](https://user-images.githubusercontent.com/80355232/127039857-67b3d775-686f-4013-ab75-8232bd2353e9.png)
 
+- Edição de dados
+
+![image](https://user-images.githubusercontent.com/80355232/127195649-29afab8d-ac95-4065-97cd-e68ae87fab25.png)
+
