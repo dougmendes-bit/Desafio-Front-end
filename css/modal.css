@@ -29,7 +29,7 @@
     border: none;
     background: #00c8b3;
     color: #ffff;
-    width: 80%;
+    width: 40%;
     margin-left: 80px;
     margin-bottom: 30px;
 }
@@ -37,4 +37,18 @@
 .modal__span{
     font-size: 20px;
     color: grey;   
+}
+
+.modal__fechar{
+    background: tomato;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    width: 40%;
+}
+
+.unclicked{
+    pointer-events: none
 }
