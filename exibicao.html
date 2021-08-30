@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/exibicaostyle.css">
+    <link rel="stylesheet" href="css/modal.css">
 </head>
 <body class="body">
     
@@ -18,8 +19,39 @@
 
     <main class="containerExibicao">
     </main>
+    
+    <!-- modal -->
+
+    <div class="modal">
+        <h3>Edite as informações:</h3>
+        <div>
+            <span class="modal__span">Nome:</span>
+            <input type="text" name="" placeholder="" class="modal__input-nome">
+        </div>
+        <div>
+            <span class="modal__span">Cpf:</span>
+            <input type="text" name="" placeholder="" class="modal__input-cpf">
+        </div>
+        <div>
+            <span class="modal__span">Telefone:</span>
+            <input type="text" name="" placeholder="" class="modal__input-telefone">
+        </div>
+        <div>
+            <span class="modal__span">Email:</span>
+            <input type="text" name="" placeholder="" class="modal__input-email">
+        </div>
+
+        <div>
+            <button class="modal__botao">Confirmar</button>
+            <button class="modal__fechar">Fechar</button>
+        </div>
+
+        <button class="modal__botao-deletar">excluir</button>
+        
+    </div>
 
 
     <script src="script/exibicao.js"></script>
+    <script src="script/modal.js"></script>
 </body>
 </html>
